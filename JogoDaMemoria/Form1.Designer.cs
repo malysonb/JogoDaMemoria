@@ -48,7 +48,6 @@
             this.BTN_JOGARvsPC = new System.Windows.Forms.Button();
             this.TXT_NOMEJ1 = new System.Windows.Forms.Label();
             this.TXB_NOMEvsPC = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.BTN_Historico = new System.Windows.Forms.Button();
             this.GrP_JxJ.SuspendLayout();
             this.Grupo_PC.SuspendLayout();
@@ -121,7 +120,6 @@
             this.TXB_JOGADOR1.Name = "TXB_JOGADOR1";
             this.TXB_JOGADOR1.Size = new System.Drawing.Size(239, 20);
             this.TXB_JOGADOR1.TabIndex = 4;
-            //this.TXB_JOGADOR1.TextChanged += new System.EventHandler(this.TXB_JOGADOR1_TextChanged);
             // 
             // TXB_JOGADOR2
             // 
@@ -130,7 +128,6 @@
             this.TXB_JOGADOR2.Name = "TXB_JOGADOR2";
             this.TXB_JOGADOR2.Size = new System.Drawing.Size(239, 20);
             this.TXB_JOGADOR2.TabIndex = 5;
-            //this.TXB_JOGADOR2.TextChanged += new System.EventHandler(this.TXB_JOGADOR2_TextChanged);
             // 
             // BTN_JOGAR
             // 
@@ -252,15 +249,6 @@
             this.TXB_NOMEvsPC.Size = new System.Drawing.Size(239, 20);
             this.TXB_NOMEvsPC.TabIndex = 0;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 351);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(214, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "Fênix TECH — Todos os direitos reservados.";
-            // 
             // BTN_Historico
             // 
             this.BTN_Historico.Location = new System.Drawing.Point(179, 58);
@@ -277,7 +265,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 370);
             this.Controls.Add(this.BTN_Historico);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.Grupo_PC);
             this.Controls.Add(this.BTN_VERRANKING);
             this.Controls.Add(this.TXT_DIFICULDADE);
@@ -320,7 +307,6 @@
         private System.Windows.Forms.TextBox TXB_NOMEvsPC;
         private System.Windows.Forms.ComboBox Combo_Inteligência;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BTN_Historico;
     }
 }
